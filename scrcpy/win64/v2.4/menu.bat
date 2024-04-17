@@ -12,8 +12,8 @@ for /f "delims=" %%# in  ('"wmic path Win32_VideoController get currentrefreshra
 )
 taskkill /f /im adb.exe
 :Start
-title %name% %ver% - Menu
-color a
+title %name% %ver% by %creator% - Menu
+color 0a
 cls
 mode con: cols=50 lines=20
 echo  ------------------------------------------------
@@ -37,7 +37,7 @@ echo '                                                '
 echo '------------------------------------------------'
 set /p input=' Choice: 
 cd Data
-title %name% %ver% - Mirroring
+title %name% %ver% by %creator% - Mirroring
 mode con: cols=71 lines=20
 cls
 echo Waiting for device.
