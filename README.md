@@ -2,11 +2,11 @@
 source for the project. Do not download releases from random websites, even if
 their name contains `scrcpy`.**
 
-# scrcpy (v2.4)
+# scrcpy+ (v2.4)
 
 <img src="app/data/icon.svg" width="128" height="128" alt="scrcpy" align="right" />
 
-_pronounced "**scr**een **c**o**py**"_
+_pronounced "**scr**een **c**o**py** **plus**"_
 
 This application mirrors Android devices (video and audio) connected via
 USB or [over TCP/IP](doc/connection.md#tcpip-wireless), and allows to control the
