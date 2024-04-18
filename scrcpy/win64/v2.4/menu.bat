@@ -1,9 +1,6 @@
 mode con: cols=16 lines=1
 @echo off
 chcp 65001
-set name=Scrcpy+
-set ver=v2.4
-set creator=JustFélix_
 for /f "delims=" %%# in  ('"wmic path Win32_VideoController get CurrentHorizontalResolution,CurrentVerticalResolution /format:value"') do (
   set "%%#">nul
 )
@@ -12,6 +9,9 @@ for /f "delims=" %%# in  ('"wmic path Win32_VideoController get currentrefreshra
 )
 taskkill /f /im adb.exe
 :Start
+set name=Scrcpy+
+set ver=v2.4
+set creator=JustFélix_
 title %name% %ver% by %creator% - Menu
 color 0a
 cls
