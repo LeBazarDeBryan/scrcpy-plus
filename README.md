@@ -38,6 +38,7 @@ Its features include:
  - [mirroring as a webcam (V4L2)](doc/v4l2.md) (Linux-only)
  - physical [keyboard][hid-keyboard] and [mouse][hid-mouse] simulation (HID)
  - [OTG mode](doc/otg.md)
+ - [Menu](doc/menu.md)
  - and more…
 
 [hid-keyboard]: doc/keyboard.md#physical-keyboard-simulation
