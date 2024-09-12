@@ -11,14 +11,14 @@ taskkill /f /im adb.exe
 :Start
 set name=Scrcpy+
 set ver=v2.4
-set creator=JustFélix_
+set creator=Félx
 title %name% %ver% by %creator% - Menu
 color 0a
 cls
 mode con: cols=50 lines=20
 echo  ------------------------------------------------
 echo '                                                '
-echo '           %name% %ver% by %creator%           '
+echo '             %name% %ver% by %creator%               '
 echo '                                                '
 echo '------------------------------------------------'
 echo '     GitHub.com/LeBazarDeBryan/scrcpy-plus      '
